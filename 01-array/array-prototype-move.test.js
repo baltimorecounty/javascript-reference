@@ -1,8 +1,6 @@
-var assert = require('chai').assert;
 var expect = require('chai').expect;
-var sinon = require('sinon');
 
-require('../../01-array/array-prototype-move.js');
+require('./array-prototype-move');
 
 describe('Array Prototype Move', function(done) {
   it('should move the first item in a 4 item array to the second position ', function(done) {
