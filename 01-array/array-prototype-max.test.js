@@ -1,8 +1,6 @@
-var assert = require('chai').assert;
 var expect = require('chai').expect;
-var sinon = require('sinon');
 
-require('../../01-array/array-prototype-max.js');
+require('./array-prototype-max');
 
 describe('Array Prototype Max', function (done) {
 
